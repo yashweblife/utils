@@ -7,6 +7,6 @@ type U struct {
 }
 
 func (u *U) Log(val string) {
-	fmt.Println(u.index, ": ", val)
+	fmt.Printf("%d: %s\n", u.index, val)
 	u.index++
 }
